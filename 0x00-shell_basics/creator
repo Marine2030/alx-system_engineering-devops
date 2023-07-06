@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "type file name"
+ 
+read filename 
+echo "#!/bin/bash" > ${filename}
+
+chmod +x ${filename}
+
+
