@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "insert the file name"
+
+read filename
+
+echo "#!/bin/bash" > ${filename}
+
+chmod +x ${filename}
+
