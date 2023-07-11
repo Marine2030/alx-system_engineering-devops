@@ -1,0 +1,2 @@
+#!/bin/bash
+my_var=whoami | echo "hello $my_var"
