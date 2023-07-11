@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -type d | echo $(pwd)
+echo $(pwd) | wc -l
